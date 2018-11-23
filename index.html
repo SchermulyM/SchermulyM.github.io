@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
+    <meta charset="utf-8"/>
     <meta name="author" content="SchermulyM" />
-    <title>MyWebsite2000</title>
+    <meta name="title" content="MyHomepage2000"/>
+    <title>MyHomepage2000</title>
+    <meta name="description" content="This is my static Homepage, the year is 2000"/>
+    <meta name="keywords" content="Schermuly, Portfolio"/>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="navigation.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="script.js"></script>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <a href="https://schermulym.github.io/home.html">home</a>
+    <header>
+      <nav>
+        <label id="toggle-nav-menu-label" for="toggle-nav-menu"><i class="icon">X</i></label>
+        <input type="checkbox" id="toggle-nav-menu"/>
+        <ul class="nav-item-list">
+          <li class="nav-li"><a class="nav-a" href="https://schermulym.github.io/home.html">home</a></li>
+          <li class="nav-li"><a class="nav-a" href="#">about</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="content">
+      <h1>My Homepage</h1>
+    </div>
   </body>
 </html>
